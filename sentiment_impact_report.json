@@ -1,0 +1,113 @@
+{
+  "total_players": 132,
+  "average_sentiment_score": NaN,
+  "high_sentiment_players": [
+    {
+      "player": "Adri\u00c3\u00a1n Mar\u00c3\u00adn G\u00c3\u00b3mez",
+      "sentiment_compound": NaN,
+      "goals": 0,
+      "assists": 0
+    },
+    {
+      "player": "Aleix Garc\u00c3\u00ada Serrano",
+      "sentiment_compound": NaN,
+      "goals": 0,
+      "assists": 0
+    },
+    {
+      "player": "Alejandro Granell Nogu\u00c3\u00a9",
+      "sentiment_compound": NaN,
+      "goals": 0,
+      "assists": 0
+    },
+    {
+      "player": "Allan Romeo Nyom",
+      "sentiment_compound": NaN,
+      "goals": 0,
+      "assists": 0
+    },
+    {
+      "player": "Andr\u00c3\u00a9 Miguel Valente Silva",
+      "sentiment_compound": NaN,
+      "goals": 0,
+      "assists": 0
+    }
+  ],
+  "low_sentiment_players": [
+    {
+      "player": "Yassine Bounou",
+      "sentiment_compound": NaN,
+      "goals": 0,
+      "assists": 0
+    },
+    {
+      "player": "Youssef En-Nesyri",
+      "sentiment_compound": NaN,
+      "goals": 0,
+      "assists": 0
+    },
+    {
+      "player": "\u00c3\u201cscar Plano Pedre\u00c3\u00b1o",
+      "sentiment_compound": NaN,
+      "goals": 0,
+      "assists": 0
+    },
+    {
+      "player": "\u00c3\u201cscar Rodr\u00c3\u00adguez Arnaiz",
+      "sentiment_compound": NaN,
+      "goals": 1,
+      "assists": 0
+    },
+    {
+      "player": "\u00c3\u2030ver Maximiliano David Banega",
+      "sentiment_compound": NaN,
+      "goals": 0,
+      "assists": 0
+    }
+  ],
+  "top_performers": [
+    {
+      "player": "Allan Romeo Nyom",
+      "form_trend": 50.0,
+      "goals": 0,
+      "assists": 0
+    },
+    {
+      "player": "Duje \u00c4\u0152op",
+      "form_trend": 50.0,
+      "goals": 0,
+      "assists": 0
+    },
+    {
+      "player": "Gerard Gumbau Garriga",
+      "form_trend": 50.0,
+      "goals": 0,
+      "assists": 0
+    },
+    {
+      "player": "Thomas Vermaelen",
+      "form_trend": 47.93388429752066,
+      "goals": 0,
+      "assists": 0
+    },
+    {
+      "player": "Gabriel Armando de Abreu",
+      "form_trend": 47.61904761904761,
+      "goals": 0,
+      "assists": 0
+    }
+  ],
+  "correlation_analysis": {
+    "sentiment_vs_market_value": NaN,
+    "sentiment_vs_games_played": NaN,
+    "sentiment_vs_minutes_played": NaN,
+    "sentiment_vs_total_passes": NaN,
+    "sentiment_vs_pass_accuracy": NaN,
+    "sentiment_vs_goals": NaN,
+    "sentiment_vs_assists": NaN,
+    "sentiment_vs_tackles": NaN,
+    "sentiment_vs_form_trend": NaN,
+    "sentiment_vs_sentiment_positive": NaN,
+    "sentiment_vs_sentiment_negative": NaN
+  }
+}

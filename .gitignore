@@ -1,0 +1,194 @@
+# ⚽ Football Analytics: Transfer Value Prediction with AI
+
+A comprehensive football analytics project that processes player performance data, sentiment analysis, and market values to predict transfer attractiveness using machine learning.
+
+## 📋 Project Overview
+
+This project implements a complete data science pipeline for football analytics, covering data collection, feature engineering, sentiment analysis, and interactive visualization.
+
+### 🎯 Weeks Completed
+
+- **Week 1-2**: Data loading, basic processing, and initial dataset creation
+- **Week 3**: Advanced performance trends and feature engineering
+- **Week 4**: Sentiment analysis integration and final modeling dataset
+
+## 📊 Dataset Features
+
+The final modeling dataset (`final_modeling_dataset.csv`) contains 132 players with 13 features:
+
+### Performance Metrics
+- `games_played` - Number of games played
+- `minutes_played` - Total minutes on field
+- `total_passes` - Total passes attempted
+- `pass_accuracy` - Pass completion percentage
+- `goals` - Goals scored
+- `assists` - Assist count
+- `tackles` - Tackles made
+
+### Advanced Analytics
+- `form_trend` - Calculated performance trend (season-wise averages)
+- `market_value` - Player market value in EUR
+
+### Sentiment Analysis
+- `sentiment_positive` - Positive sentiment score (0-1)
+- `sentiment_negative` - Negative sentiment score (0-1)
+- `sentiment_compound` - Compound sentiment score (-1 to +1)
+
+## 🚀 Getting Started
+
+### Prerequisites
+```bash
+pip install pandas numpy matplotlib streamlit nltk textblob
+```
+
+### Running the Data Processing Pipeline
+```bash
+python weeks3_4_advanced_features.py
+```
+This generates:
+- `final_modeling_dataset.csv` - Main modeling dataset
+- `sentiment_impact_report.json` - Sentiment analysis report
+
+### Launching Interactive Dashboards
+
+**Week 3 Dashboard (Advanced Performance Trends):**
+```bash
+python -m streamlit run week3_dashboard.py
+```
+
+**Week 4 Dashboard (Sentiment Analysis & Integration):**
+```bash
+python -m streamlit run week4_dashboard.py
+```
+
+## 📁 Project Structure
+
+```
+infosys/
+├── checkmarket.py              # Market value validation
+├── final_modeling_dataset.csv  # Final processed dataset (132×13)
+├── marketvalue.csv            # Raw market value data
+├── performance_sample.csv     # Performance statistics
+├── read.py                    # Data reading utilities
+├── sentiment_impact_report.json # Sentiment analysis results
+├── week3_dashboard.py         # Performance trends dashboard
+├── week4_dashboard.py         # Sentiment analysis dashboard
+├── weeks3_4_advanced_features.py # Main data processing script
+├── open-data-master/          # Football event data (3464 JSON files)
+│   └── data/
+│       └── events/            # Individual match events
+└── README.md                  # This file
+```
+
+## 🔧 Data Processing Pipeline
+
+### 1. Data Loading
+- Load market value data from CSV
+- Process 3464+ event JSON files from open-data-master
+- Extract player performance metrics
+
+### 2. Feature Engineering
+- Calculate season-wise performance averages
+- Compute form trends (performance momentum)
+- Aggregate passing, shooting, and defensive stats
+
+### 3. Sentiment Analysis
+- Use VADER (NLTK) for sentiment scoring
+- Generate positive, negative, and compound scores
+- Analyze sentiment-performance correlations
+
+### 4. Data Integration
+- Merge all datasets by player ID and season
+- Create final modeling-ready dataset
+- Generate impact analysis reports
+
+## 📈 Key Insights
+
+### Top Performers by Form Trend
+1. Allan Romeo Nyom (50.0)
+2. Duje Čop (50.0)
+3. Gerard Gumbau Garriga (50.0)
+4. Thomas Vermaelen (47.93)
+5. Gabriel Armando de Abreu (47.62)
+
+### Dataset Statistics
+- **Total Players**: 132
+- **Features**: 13
+- **Avg Form Trend**: 42.86
+- **Avg Goals**: 0.02
+- **Avg Pass Accuracy**: 85.71%
+
+## 🛠️ Technologies Used
+
+- **Python** - Core programming language
+- **Pandas** - Data manipulation and analysis
+- **NumPy** - Numerical computing
+- **Matplotlib** - Data visualization
+- **Streamlit** - Interactive web dashboards
+- **NLTK/VADER** - Sentiment analysis
+- **TextBlob** - Alternative sentiment analysis
+
+## 📊 Dashboard Features
+
+### Week 3 Dashboard
+- Player search functionality
+- Top 10 players by form trend (bar chart)
+- Games played distribution
+- Pass accuracy analysis
+- Goals vs Assists scatter plot
+- Tackles distribution
+- Key performance metrics
+
+### Week 4 Dashboard
+- Sentiment score distributions
+- Market value vs form trend correlations
+- Top players by goals and form trend
+- Total passes vs goals analysis
+- Complete dataset summary
+
+## 🔍 Methodology
+
+### Performance Analysis
+- **Season-wise Averages**: Calculate rolling performance metrics
+- **Form Trends**: Momentum-based performance scoring
+- **Statistical Aggregation**: Mean, median, and percentile calculations
+
+### Sentiment Integration
+- **VADER Analysis**: Lexicon-based sentiment scoring
+- **TextBlob Alternative**: Pattern-based sentiment analysis
+- **Correlation Analysis**: Link sentiment to performance metrics
+
+### Data Quality
+- Handle missing values and encoding issues
+- Validate data integrity across sources
+- Ensure consistent player identification
+
+## 🎯 Next Steps
+
+1. **Machine Learning Model**: Train predictive models for transfer value
+2. **Advanced Features**: Add more performance indicators
+3. **Real-time Data**: Integrate live match data
+4. **Player Clustering**: Group similar players
+5. **Transfer Prediction**: Build recommendation system
+
+## 📝 Notes
+
+- Dataset uses open football data from open-data-master
+- Sentiment analysis limited by available text data
+- All visualizations are interactive via Streamlit
+- Processing handles 30K+ event records efficiently
+
+## 🤝 Contributing
+
+This is a learning project for football analytics. Feel free to:
+- Add new features or visualizations
+- Improve data processing efficiency
+- Enhance sentiment analysis methods
+- Create additional dashboards
+
+---
+
+**Project Status**: ✅ Weeks 1-4 Complete
+**Data Ready**: ✅ Modeling Dataset Available
+**Visualization**: ✅ Interactive Dashboards Live</content>
+<parameter name="filePath">c:\Users\vardh\OneDrive\Desktop\infosys\README.md
