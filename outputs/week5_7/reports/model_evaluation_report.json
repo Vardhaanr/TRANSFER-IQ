@@ -1,0 +1,51 @@
+{
+  "milestone_week5": {
+    "univariate_lstm_metrics": {
+      "rmse": 116047537.75018926,
+      "mae": 111894720.0,
+      "r2": -13.226714134216309
+    },
+    "multivariate_lstm_metrics": {
+      "rmse": 116047537.75018926,
+      "mae": 111894720.0,
+      "r2": -13.226714134216309
+    },
+    "encoder_decoder_metrics": {
+      "rmse": 115758881.5108171,
+      "mae": 111706152.0,
+      "r2": -13.536059379577637
+    }
+  },
+  "milestone_week6": {
+    "xgboost_metrics": {
+      "rmse": 7509638.727365784,
+      "mae": 5904390.5,
+      "r2": 0.9404240846633911
+    },
+    "ensemble_metrics": {
+      "rmse": 7420062.558614988,
+      "mae": 5834070.5,
+      "r2": 0.9418368339538574
+    }
+  },
+  "milestone_week7": {
+    "best_lstm_params": {
+      "num_layers": 2,
+      "lr": 0.0005,
+      "hidden_size": 64,
+      "dropout": 0.2
+    },
+    "best_lstm_rmse": 116047519.24498129,
+    "best_xgb_params": {
+      "subsample": 1.0,
+      "n_estimators": 500,
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "colsample_bytree": 1.0
+    },
+    "best_xgb_rmse": 6672890.00905125
+  },
+  "notes": [
+    "Integrated ensemble combines XGBoost + multivariate LSTM + univariate LSTM predictions."
+  ]
+}

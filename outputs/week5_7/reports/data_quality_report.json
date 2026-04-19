@@ -1,0 +1,14 @@
+{
+  "file": "final_modeling_dataset_multiseason.csv",
+  "total_rows": 924,
+  "missing_required_columns": [],
+  "column_stats": {
+    "player_non_empty": 924,
+    "season_valid_or_fallback": 924,
+    "season_mode": "provided",
+    "market_value_numeric": 924
+  },
+  "usable_rows": 924,
+  "invalid_rows": 0,
+  "notes": []
+}
